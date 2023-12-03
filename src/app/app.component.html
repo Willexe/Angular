@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="" alt="" class="logo"></a>
+            <nav class="navegation">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a routerLink="/firstscreen">Marketing Digital</a></li>
+                    <li><a routerLink="/secondscreen">Programação</a></li>
+                    <li><a routerLink="/thirdscreen">Investimentos</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">      
+            <div class="text">
+                <h2>WEBINAR <br><span> {{"seminário online" | uppercase }} </span></h2>
+                <app-pipes></app-pipes>
+                <router-outlet></router-outlet>
+                
+                <a href="#">Página do Produto</a>
+            </div>
+        </div>
+        <!--<ul class="icons">
+            <li><a href="#"><img src="assets/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/instagram.png" alt=""></a></li>
+        </ul>
+        -->
+        <div class="boxImg">
+            <img src ="" alt="" class="img1">
+            <img src="" alt="" class="img2">
+            <img src="" alt="" class="img3">
+            <img src="" alt="" class="img4">
+        </div>
+    </section>
+</body>
+
+
+</html>
